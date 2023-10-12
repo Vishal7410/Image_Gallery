@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
+import "../style/SinglePhoto.css";
+
 
 export const SinglePhoto = () => {
     const[data,setData]=useState();
